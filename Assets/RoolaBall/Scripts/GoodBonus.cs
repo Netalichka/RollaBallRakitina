@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class GoodBonus : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float _goodBonus = 10f;
+
+    private void OnCollisionEnter(Collision collision)
     {
         
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
+    // Start is called before the first frame update
+
 
     // Update is called once per frame
     void Update()

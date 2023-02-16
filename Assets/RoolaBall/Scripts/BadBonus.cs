@@ -4,6 +4,18 @@ using UnityEngine;
 
 public class BadBonus : MonoBehaviour
 {
+    [SerializeField] private float _badBonus = 15f;
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
