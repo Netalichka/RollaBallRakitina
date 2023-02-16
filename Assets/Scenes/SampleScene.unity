@@ -522,6 +522,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4422338931104976, guid: da24672af79d5b04da5388660c6aabd9, type: 3}
   m_PrefabInstance: {fileID: 106962340}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &285297032
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -44.87853
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -35.49164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388523614835597025, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_Name
+      value: GoodBonus
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
 --- !u!4 &362101189 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4662226684559440, guid: 0fd7baca4a7deea43add0ab0e9acd63f, type: 3}
@@ -1921,7 +1978,7 @@ Transform:
   - {fileID: 1566260386}
   - {fileID: 644959752}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1759517256
 PrefabInstance:
@@ -2009,6 +2066,7 @@ GameObject:
   - component: {fileID: 1774463064}
   - component: {fileID: 1774463065}
   - component: {fileID: 1774463066}
+  - component: {fileID: 1774463067}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2031,7 +2089,7 @@ Transform:
   - {fileID: 103641859}
   - {fileID: 963194228}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1774463064
 MonoBehaviour:
@@ -2075,6 +2133,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1774463067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774463062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3822dbec79f6e3f43b00039e260db0bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHelth: 100
+  _currentHelth: 0
+  _goodBonus: 0
+  _badBonus: 0
 --- !u!1001 &1817551442
 PrefabInstance:
   m_ObjectHideFlags: 0
