@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 103641863}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -594,6 +594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BadBonus (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3626126816433257876, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
+      propertyPath: m_TagString
+      value: BadBonus
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
 --- !u!1001 &285297032
@@ -649,6 +653,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
       propertyPath: m_Name
+      value: GoodBonus
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_TagString
       value: GoodBonus
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -707,6 +715,10 @@ PrefabInstance:
     - target: {fileID: 3626126816433257876, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
       propertyPath: m_Name
       value: BadBonus (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626126816433257876, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
+      propertyPath: m_TagString
+      value: BadBonus
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
@@ -770,6 +782,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BadBonus
       objectReference: {fileID: 0}
+    - target: {fileID: 3626126816433257876, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
+      propertyPath: m_TagString
+      value: BadBonus
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
 --- !u!1001 &497717574
@@ -827,6 +843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoodBonus (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_TagString
+      value: GoodBonus
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
 --- !u!1001 &517937305
@@ -883,6 +903,10 @@ PrefabInstance:
     - target: {fileID: 3626126816433257876, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
       propertyPath: m_Name
       value: BadBonus (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626126816433257876, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
+      propertyPath: m_TagString
+      value: BadBonus
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
@@ -1427,6 +1451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoodBonus (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_TagString
+      value: GoodBonus
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
 --- !u!1001 &824053008
@@ -1958,6 +1986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoodBonus (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_TagString
+      value: GoodBonus
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
 --- !u!1001 &1355438970
@@ -2014,6 +2046,10 @@ PrefabInstance:
     - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
       propertyPath: m_Name
       value: GoodBonus (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_TagString
+      value: GoodBonus
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
@@ -2542,7 +2578,7 @@ GameObject:
   - component: {fileID: 1774463067}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2750,6 +2786,10 @@ PrefabInstance:
     - target: {fileID: 3626126816433257876, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
       propertyPath: m_Name
       value: BadBonus (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626126816433257876, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
+      propertyPath: m_TagString
+      value: BadBonus
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e59e741b9c8a2a4db6fe56818964a15, type: 3}
@@ -2993,6 +3033,10 @@ PrefabInstance:
     - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
       propertyPath: m_Name
       value: GoodBonus (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052699295062735450, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
+      propertyPath: m_TagString
+      value: GoodBonus
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f6ada777f11a984d8332bcbb05cab12, type: 3}
