@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BadBonus : MonoBehaviour
-{
+//public class BadBonus : MonoBehaviour
+//{
     //[SerializeField] private float _badBonus = 15f;
 
     //private void OnCollisionEnter(Collision collision)
@@ -27,4 +27,4 @@ public class BadBonus : MonoBehaviour
     //{
         
     //}
-}
+//}
