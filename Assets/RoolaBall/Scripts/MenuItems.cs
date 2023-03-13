@@ -11,7 +11,7 @@ public class MenuItems
    [MenuItem("Geekbrains/Пункт меню №0 %v")]
    private static void MenuOption()
         {
-            //EditorWindow.GetWindow(typeof(MyWindow), true, "Geekbrains1");
+            EditorWindow.GetWindow(typeof(MyWindow), true, "Geekbrains1");
         }
 
         [MenuItem("Geekbrains/Пункт меню №1 %#a")]
